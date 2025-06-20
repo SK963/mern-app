@@ -9,7 +9,8 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/sk963/mern-app.git'
+                git credentialsId: 'admin', url: 'https://github.com/SK963/mern-app.git'
+
             }
         }
 
