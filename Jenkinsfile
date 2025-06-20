@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/your-username/mern-app.git'
+                git 'https://github.com/sk963/mern-app.git'
             }
         }
 
